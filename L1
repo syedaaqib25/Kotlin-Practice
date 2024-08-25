@@ -1,0 +1,22 @@
+fun main(args:Array<String>) {
+     var age:Int=25
+     println(age)
+ }
+fun greet()
+{
+    val me:String="Hello, Kotlin!"
+    println(me)
+}
+class Pe
+{
+    var name: String= "Aqib"
+    val age: Int=20
+    fun displayInfo()
+    {
+        println("Name: $name,Age: $age") 
+    }
+}
+fun main()
+{val pe =Pe()
+pe.displayInfo()
+}
