@@ -1,8 +1,0 @@
-// finding min and max value
-fun main() {
-    val numbers = arrayOf(4, 2, 8, 7, 9, 3)
-
-    val minv = numbers.min() //use max for max
-
-    println("Minimum value: $minv")
-}
