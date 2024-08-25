@@ -1,0 +1,41 @@
+// finding min and max value
+fun main() {
+    val numbers = arrayOf(4, 2, 8, 7, 9, 3)
+
+    val minv = numbers.min() //use max for max
+
+    println("Minimum value: $minv")
+}
+// changing to upper and lower case
+fun main() {
+    val originalS = "hello, world!"
+
+    val upperC = originalS.toUpperCase() //toUpperCase if u want to chane to uppercase
+
+    println("Uppercase: $upperC")
+}
+// reverse
+fun main() {
+    val original = "Kotlin"
+
+    val reverseds = original.reversed()
+
+    println("Reversed: $reverseds")
+}
+// sort
+fun main() {
+    val numbers = arrayOf(9, 4, 6, 3, 7)
+
+    numbers.sort()
+
+    println("Sorted Array: ${numbers.joinToString(", ")}")
+}
+// alternate way of devide
+fun main() {
+    val nu = 20
+    val de = 4
+
+    val result = nu.div(de)
+
+    println("Result: $result")
+}
