@@ -1,0 +1,17 @@
+ fun main()
+ {
+     val c=10
+     val b=20
+     val re="sum of $c and $b is ${c+b}"
+     println(re)
+ }
+ fun main()
+ {
+     val le: Char
+     le = 'c'
+     val ve ="hi my name is lester moe"
+     val li ="""hgdyqwdgywqh
+     	ahfbwhfbhwae"""
+     val A: Boolean =true
+     print(A)
+     }
