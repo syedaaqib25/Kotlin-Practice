@@ -39,3 +39,18 @@ fun main() {
 
     println("Result: $result")
 }
+//if else
+fun main() {
+    val totalAmountOfPurchase = 1000
+    val hasMembership = true
+
+    if (totalAmountOfPurchase >= 1000) {
+        if (hasMembership) {
+            println("You have a 20% discount!")
+        } else {
+            println("You have a 10% discount!")
+        }
+    } else {
+        println("There is no disco")
+}
+}
