@@ -1,0 +1,60 @@
+fun main() {
+    val k =5;
+    println(k.shr(1))
+}
+
+fun main()
+{
+    val x =false
+    val y=true
+    val u=x&&y
+    val r = x.and(y)
+    var a=2
+    val n = a++
+    
+    
+    println(a)
+}
+
+fun main()
+{
+    var str: String? = null
+    var str2: String? ="May be declare null"
+    var len1: Int=str ?.length ?: -1
+    var len2: Int=str2 ?.length ?: -1
+    println("Length of shr is ${len1}")
+    println("Length of shr2 is ${len2}")
+    }
+fun main(){
+// when
+val c=1
+val r=when(c){
+    1-> "hello"
+    2-> "namaste"
+    3-> "moshi mosh"
+    4-> "salaam"
+    else -> "No need"
+}
+println(r)
+}
+// h/w try to make a calculater, using a loop print and add even and odd number of the array,last class pratice
+
+for loop
+ fun main(){
+     for(i in 1 until 8)
+ for(i in 1..8 step 2) // adding step can skip numbers
+      for(i in 8 downTo 1)
+     var d=7
+     while(d>=0){
+         println(d)
+         d-=2
+     
+     }
+     //do while
+     var i=6
+     do{
+         println(i)
+         i-=2
+     }while(i>=0)
+     println(i)
+ }
