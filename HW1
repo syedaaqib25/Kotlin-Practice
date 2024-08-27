@@ -60,3 +60,15 @@ val randomInt = (1..10).random()
 
     println("Miscellaneous Functions:")
     println("Random integer from 1 to 10: $randomInt") }
+// convert 
+fun main(){
+ val numString = "123"
+    val doubleString = "123.45"
+
+    println("Number Conversion Functions:")
+    println("numString.toInt(): ${numString.toInt()}")             // Convert string to Int
+    println("doubleString.toDouble(): ${doubleString.toDouble()}") // Convert string to Double
+    println("numString.toByte(): ${numString.toByte()}")           // Convert string to Byte
+    println("doubleString.toFloat(): ${doubleString.toFloat()}")   // Convert string to Float
+    println()
+}
