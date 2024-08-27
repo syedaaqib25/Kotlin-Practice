@@ -54,3 +54,9 @@ fun main() {
         println("There is no disco")
 }
 }
+//randome
+fun main(){
+val randomInt = (1..10).random()
+
+    println("Miscellaneous Functions:")
+    println("Random integer from 1 to 10: $randomInt") }
