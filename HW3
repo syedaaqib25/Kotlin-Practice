@@ -1,22 +1,23 @@
-//sum of even numbers
-fun sumEvenNumbers(n: Int): Int {
-    if (n < 2) {
-        return 0
-    }
-    
-    return if (n % 2 == 0) {
-        n + sumEvenNumbers(n - 2)
+//sum of even numbers with different parameters
+import java.util.Scanner
+
+fun sumEven(current: Int, end: Int): Int {
+    return if (current > end) {
+        0
     } else {
-        sumEvenNumbers(n - 1)
+        if (current % 2 == 0) {
+            current + sumEven(current + 1, end)
+        } else {
+            sumEven(current + 1, end)
+        }
     }
 }
 
 fun main() {
-    println("Enter the value of n: ")
-    val n = readLine()?.toIntOrNull() ?: return
-
-    println("Sum of even numbers from 1 to $n is: ${sumEvenNumbers(n)}")
+    val scanner = Scanner(System.`in`)
+    print("Enter the value of n: ")
+    val n = scanner.nextInt()
+    val sum = sumEven(1, n)
+    println("Sum of even numbers from 1 to $n: $sum")
+    scanner.close()
 }
-
-
-//
