@@ -1,0 +1,32 @@
+//constructor
+class Person{
+    var n: String=""
+    var a:Int=0
+    constructor(x:
+              String, y:Int){
+        this.n=x
+        this.a=y
+    }
+    constructor(x:String){
+        this.n=x
+        this.a=0
+    }
+    constructor(){
+        this.n="Aqib"
+        this.a=22
+    }
+    fun intro()
+    {
+        println("my name is $n and age is $a")
+    }
+}
+fun main()
+{
+    var aa=Person("Riya",22)
+    aa.intro()
+    var b=Person()
+    b.intro()
+    var c=Person("heena")
+    c.intro()
+}
+//update ppt
