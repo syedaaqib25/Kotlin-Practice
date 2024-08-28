@@ -21,3 +21,22 @@ fun main() {
     println("Sum of even numbers from 1 to $n: $sum")
     scanner.close()
 }
+//sum of n numbers
+import java.util.Scanner
+
+fun sumNumbers(n: Int): Int {
+    return if (n <= 0) {
+        0
+    } else {
+        n + sumNumbers(n - 1)
+    }
+}
+
+fun main() {
+    val scanner = Scanner(System.`in`)
+    print("Enter the value of n: ")
+    val n = scanner.nextInt()
+    val sum = sumNumbers(n)
+    println("Sum of numbers from 1 to $n: $sum")
+    scanner.close()
+}
