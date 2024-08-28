@@ -1,1 +1,9 @@
+//factorial using recursion
+fun factorial(n: Int): Int {
+    return if (n <= 1) 1 else n * factorial(n - 1)
+}
 
+fun main() {
+    val number = 5 // Change this to any number you want to calculate the factorial of
+    println("Factorial of $number is ${factorial(number)}")
+}
