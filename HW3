@@ -1,0 +1,22 @@
+//sum of even numbers
+fun sumEvenNumbers(n: Int): Int {
+    if (n < 2) {
+        return 0
+    }
+    
+    return if (n % 2 == 0) {
+        n + sumEvenNumbers(n - 2)
+    } else {
+        sumEvenNumbers(n - 1)
+    }
+}
+
+fun main() {
+    println("Enter the value of n: ")
+    val n = readLine()?.toIntOrNull() ?: return
+
+    println("Sum of even numbers from 1 to $n is: ${sumEvenNumbers(n)}")
+}
+
+
+//
