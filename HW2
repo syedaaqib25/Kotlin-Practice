@@ -3,7 +3,7 @@ import java.util.Scanner
 
 fun main() {
     val scanner = Scanner(System.in)
-
+   
     println("Enter first number:")
     val number1 = scanner.nextDouble()
 
